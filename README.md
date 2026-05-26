@@ -1,4 +1,4 @@
-# Introduction
+# NEO & Comet Tracker
 A Python-based web application that fetches and visualizes real-time data on Near-Earth Objects (NEOs) and comets using NASA's public APIs. Built to explore planetary defense data and track celestial bodies approaching Earth.
 
 ## Features
