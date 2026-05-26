@@ -9,9 +9,14 @@ A Python-based web application that fetches and visualizes real-time data on Nea
 - Lightweight Python backend with minimal dependencies
 
 ## Tech Stack
-Language - Python 3.13
-API - NASA NeoWs API / NASA Open APIs
-UI - streamlit
+| Layer | Technology |
+|-------|------------|
+| Language | Python 3.x |
+| API | NASA NeoWs API / NASA Open APIs |
+| HTTP Client | `requests` |
+| Data Handling | `json`, `datetime` |
+| UI/Output | `streamlit` |
+
 
 ## Installation
 
