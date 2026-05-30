@@ -35,7 +35,7 @@ def fetch_close_approaches(body_code='Earth', min_date='now', max_date='+60', ma
     # Filter by object type if selected
     if object_type == 'NEO':   # check if object type is Near-Earth Object
         my_params['neo'] = 'true'    # add 'neo' parameter to API request
-    elif object_tye == 'Comet':   # check if object type is comet
+    elif object_type == 'Comet':   # check if object type is comet
         my_params['comet'] = 'true'   # Add 'comet' parameter to API request
         
     # Start try block to handle potential exceptions
